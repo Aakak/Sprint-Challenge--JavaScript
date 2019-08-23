@@ -14,69 +14,53 @@
 
 // Using your dinosaur objects, log answers to these questions:
 
-const dinosaurs = [
-  {
-    name: "tyrannosaurus",
-    diet: "carnivorous",
-    weight: "7000kg",
-    length: "12m",
-    period: "Late Cretaceous"
-  },
-  {
-    name: "stegosaurus",
-    diet: "herbivorous",
-    weight: "2000kg",
-    length: "9m",
-    period: "Late Jurassic"
-  },
-  {
-    name: "velociraptor",
-    diet: "carnivorous",
-    weight: "15kg",
-    length: "1.8m",
-    period: "Late Cretaceous"
+const dinosaur1 = {
+  name: "tyrannosaurus",
+  diet: "carnivorous",
+  weight: "7000kg",
+  length: "12m",
+  period: "Late Cretaceous",
+  roar: function() {
+    return "RAWERSRARARWERSARARARRRR!";
   }
-];
+};
+
+const dinosaur2 = {
+  name: "stegosaurus",
+  diet: "herbivorous",
+  weight: "2000kg",
+  length: "9m",
+  period: "Late Jurassic"
+};
+const dinosaur3 = {
+  name: "velociraptor",
+  diet: "carnivorous",
+  weight: "15kg",
+  length: "1.8m",
+  period: "Late Cretaceous"
+};
 
 // How much did tyrannosaurus weigh?
-// dinosaurs.forEach(function(dinosaur) {
-//     console.log(dinosaur.weight);
+
+// const dinosaurWeights = dinosaurs.map(function(dinosaur) {
+//   return dinosaur.weight;
 // });
 
-const dinosaurWeights = dinosaurs.map(function(dinosaur) {
-  return dinosaur.weight;
-});
-
-console.log(dinosaurWeights);
+console.log(dinosaur1.weight);
 
 // What was the diet of a velociraptor?
-const velociraptor = dinosaurs.filter(function(item) {
-  return item.name === "velociraptor";
-});
 
-console.log(velociraptor[0].diet);
+console.log(dinosaur3.diet);
 
-// How long was a stegosaurus?
-const stegosaurus = dinosaurs.filter(function(item) {
-  return item.name === "stegosaurus";
-});
-
-console.log(stegosaurus[0].length);
+console.log(dinosaur2.length);
 
 // What time period did tyrannosaurus live in?
-const tyrannosaurus = dinosaurs.filter(function(item) {
-  return item.name === "tyrannosaurus";
-});
 
-console.log(tyrannosaurus[0].period);
+console.log(dinosaur1.period);
 
 // Create a new roar method for the tyrannosaurus.  When called, return "RAWERSRARARWERSARARARRRR!" Log the result.
 
-tyrannosaurus[0]["roar"] = function() {
-  return "RAWERSRARARWERSARARARRRR!";
-};
-
-console.log(tyrannosaurus[0].roar());
+console.log(dinosaur1.roar());
 
 // ==== Arrays ====
 
