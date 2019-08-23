@@ -18,7 +18,7 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 ## Description
 
-You will notice there are several JavaScript files being brought into the index.html file.  Each of those files contain JavaScript problems you need to solve.  If you get stuck on something, skip over it and come back to it later.
+You will notice there are several JavaScript files being brought into the index.html file. Each of those files contain JavaScript problems you need to solve. If you get stuck on something, skip over it and come back to it later.
 
 In meeting the minimum viable product (MVP) specifications listed below, you should have a console full of correct responses to the problems given.
 
@@ -46,17 +46,16 @@ Follow these steps to set up and work on your project:
 - [ ] Add TL as collaborator on Github.
 - [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Create a pull request before you start working on the project requirements.  You will continuously push your updates throughout the project.
+- [ ] Create a pull request before you start working on the project requirements. You will continuously push your updates throughout the project.
 - [ ] You are now ready to build this project with your preferred IDE
 - [ ] Implement the project on your Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project:
 
-- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's  Repo).
+- [ ] Submit a Pull-Request to merge <firstName-lastName> Branch into master (student's Repo).
 - [ ] Add your team lead as a Reviewer on the Pull-request
-- [ ] TL then will count the HW as done by  merging the branch back into master.
-
+- [ ] TL then will count the HW as done by merging the branch back into master.
 
 ## Minimum Viable Product
 
@@ -65,20 +64,28 @@ Your finished project must include all of the following requirements:
 **Pro tip for this challenge: If something seems like it isn't working locally, copy and paste your code up to codepen and take another look at the console.**
 
 ## Task 1: Objects and Arrays
-Test your knowledge of objects and arrays. 
-* [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started.  Read the instructions carefully!
+
+Test your knowledge of objects and arrays.
+
+- [ ] Use the [objects-arrays.js](challenges/objects-arrays.js) link to get started. Read the instructions carefully!
 
 ## Task 2: Functions
-This challenge takes a look at callbacks and closures as well as scope. 
-* [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
+
+This challenge takes a look at callbacks and closures as well as scope.
+
+- [ ] Use the [functions.js](challenges/functions.js) link to get started. Read the instructions carefully!
 
 ## Task 3: Prototypes
+
 Create constructors, bind methods, and create cuboids in this prototypes challenge.
-* [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
+
+- [ ] Use the [prototypes.js](challenges/prototypes.js) link to get started. Read the instructions carefully!
 
 ## Task 4: Classes
+
 Once you have completed the prototypes challenge, it's time to convert all your hard work into classes.
-* [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
+
+- [ ] Use the [classes.js](challenges/classes.js) link to get started. Read the instructions carefully!
 
 In your solutions, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 
@@ -87,33 +94,33 @@ In your solutions, it is essential that you follow best practices and produce cl
 There are a few stretch problems found throughout the files, don't work on them until you are finished with MVP requirements!
 
 
+
 ########### Self-Study Questions ############
- 
 
 ## Describe the biggest difference between .forEach & .map.
- 
- - Array method  .forEach() and .map() calls a function on every element in the array. The difference between them that .map() will apply return values and actually returns a new array. And .forEach() doesn’t return anything.
+
+- Array method .forEach() and .map() calls a function on every element in the array. The difference between them that .map() will apply return values and actually returns a new array. And .forEach() doesn’t return anything.
 
 ## What is the difference between a function and a method.
 
- - There are almost the same, accept the methods are functions inside the object. 
+- There are almost the same, accept the methods are functions inside the object.
 
 ## What is closure?
 
-  - Closure is a multiple functions combined together. And from inner function you can        access outer function’s scope.
+- Closure is a multiple functions combined together. And from inner function you can access outer function’s scope.
 
 ## Describe the four rules of the 'this' keyword.
 
-  - There are four rules of ‘this’ keyword.
+- There are four rules of ‘this’ keyword.
 
-       - Implicit Binding - 'this' key work referencing object left of the dot when it is being called.
+  - Implicit Binding - 'this' key work referencing object left of the dot when it is being called.
 
-      - Explicit Binding - explicitly stating what "this" key word means by passing argument (.call()).
+  - Explicit Binding - explicitly stating what "this" key word means by passing argument (.call()).
 
-       - New Binding - when the new function is invoked (using 'new' keyword) the JS will create the new object and save it as 'this' .
+  - New Binding - when the new function is invoked (using 'new' keyword) the JS will create the new object and save it as 'this' .
 
-       - Window Binding - if you invoke the function that uses 'this' keyword but does not have anything left to the dot it defaults to window object.
+  - Window Binding - if you invoke the function that uses 'this' keyword but does not have anything left to the dot it defaults to window object.
 
 ## Why do we need super() in an extended class?
 
-  - The super keyword is used to access and call functions on an object's parent.
+- The super keyword is used to access and call functions on an object's parent.
