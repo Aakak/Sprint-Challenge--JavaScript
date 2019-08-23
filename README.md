@@ -85,3 +85,35 @@ In your solutions, it is essential that you follow best practices and produce cl
 ## Stretch Problems
 
 There are a few stretch problems found throughout the files, don't work on them until you are finished with MVP requirements!
+
+
+########### Self-Study Questions ############
+ 
+
+## Describe the biggest difference between .forEach & .map.
+ 
+ - Array method  .forEach() and .map() calls a function on every element in the array. The difference between them that .map() will apply return values and actually returns a new array. And .forEach() doesn’t return anything.
+
+## What is the difference between a function and a method.
+
+ - There are almost the same, accept the methods are functions inside the object. 
+
+## What is closure?
+
+  - Closure is a multiple functions combined together. And from inner function you can        access outer function’s scope.
+
+## Describe the four rules of the 'this' keyword.
+
+  - There are four rules of ‘this’ keyword.
+
+       - Implicit Binding - 'this' key work referencing object left of the dot when it is being called.
+
+      - Explicit Binding - explicitly stating what "this" key word means by passing argument (.call()).
+
+       - New Binding - when the new function is invoked (using 'new' keyword) the JS will create the new object and save it as 'this' .
+
+       - Window Binding - if you invoke the function that uses 'this' keyword but does not have anything left to the dot it defaults to window object.
+
+## Why do we need super() in an extended class?
+
+  - The super keyword is used to access and call functions on an object's parent.
